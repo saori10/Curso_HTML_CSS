@@ -1,0 +1,52 @@
+/* Estilos para colores */
+.colores{
+    color: #a600ff;
+}
+
+.color-hexadecimal{
+    color: #4bc097;
+}
+
+.color-rgb{
+    color: rgb(216, 36, 232);
+}
+
+.color-rba{
+    color: rgba(10, 10, 10, 0.05);
+}
+
+/* Fondos */
+.fondo{
+    /*background-color: darksalmon;*/
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-position: right bottom;
+}   
+
+.fondo-interno{
+    /*background-color: darksalmon;*/
+    background-image: url(Imagenes/fondo.jpg);
+    background-position: left bottom;
+}
+
+
+/* Tamaños */
+.ancho{
+    background-color: rgb(92, 255, 201);
+    width: 100px;
+}
+
+.alto{
+    background-color:#b072e3;
+    height: 200px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-width: 2px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    /*El padding es el espacio interno*/
+    margin: 10px 20px;
+}
